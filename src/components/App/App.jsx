@@ -1,3 +1,4 @@
+import "./App.css";
 import Header from "../Header/Header";
 import { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
