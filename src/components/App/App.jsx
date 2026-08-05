@@ -15,6 +15,8 @@ import MyStory from "../AboutMe/MyStory";
 import SiteHistory from "../AboutUs/SiteHistory";
 import SiteMission from "../AboutUs/SiteMission";
 
+import PageNotFound from "../PagenotFound/PageNotfound";
+
 function App() {
   const [reviews, setReviews] = useState([]);
 
@@ -52,6 +54,7 @@ function App() {
           <Route path="history" element={<SiteHistory />} />
           <Route path="mission" element={<SiteMission />} />
         </Route>
+        <Route path="*" element={<PageNotFound />} />
       </Routes>
     </div>
   );

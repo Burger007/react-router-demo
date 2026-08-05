@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./PageNotFound.css";
 
 function PageNotFound() {
@@ -9,6 +10,7 @@ function PageNotFound() {
       <p className="not-found__text">
         Uh oh! There&apos;s nothing here... Sorry. 🥺
       </p>
+      <Link to="/">Go home</Link>
     </div>
   );
 }
